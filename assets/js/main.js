@@ -32,6 +32,8 @@
             },
         },
     });
+	
+	
 
     // portfolio Slider
     var portfolio = new Swiper(".sc-portfolio-slider", {
@@ -42,7 +44,7 @@
             prevEl: ".swiper-button-prev",
         },
         autoplay: {
-            delay: 8000,
+            delay: 1500,
         },
         loop: true,
         breakpoints: {
@@ -64,6 +66,37 @@
         },
     });
 
+    // portfolio Slider new
+    var portfolio = new Swiper(".sc-portfolio-slider-new", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+            delay: 1400,
+        },
+        loop: true,
+        breakpoints: {
+            640: {
+                slidesPerView: 1,
+            },
+            320: {
+                slidesPerView: 1,
+            },
+            576: {
+                slidesPerView: 1,
+            },
+            768: {
+                slidesPerView: 1,
+            },
+            1024: {
+                slidesPerView: 2,
+            },
+        },
+    });
+	
     // project Slider
     var project = new Swiper(".sc-project-slider", {
         slidesPerView: 3,

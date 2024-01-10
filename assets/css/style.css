@@ -29275,6 +29275,7 @@ main {
 
 .sc-testimonial-section {
   background-color: #ffffff;
+  padding-bottom: 120px;
 }
 
 .testimonial-item {
@@ -29297,7 +29298,7 @@ main {
   font-size: 30px;
 }
 .testimonial-item .test-content .desc {
-  font-size: 30px;
+  font-size: 18px;
   color: #595959;
 }
 .testimonial-item .test-auother {
@@ -29359,7 +29360,10 @@ main {
   font-size: 35px;
   font-family: "Lexend", sans-serif;
 }
-
+#portfolio-wrapper8,
+#portfolio-wrapper7,
+#portfolio-wrapper6,
+#portfolio-wrapper5,
 #portfolio-wrapper4,
 #portfolio-wrapper3,
 #portfolio-wrapper2,
@@ -29807,7 +29811,7 @@ main {
   font-size: 30px;
 }
 .sc-portfolio-content-area .sc-portfolio-text {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 .sc-portfolio-content-area .portfolio-inner-content .portfolio-text {
   margin-bottom: 25px;
@@ -30589,7 +30593,7 @@ main {
   border: 1px solid #bbbbbb;
   border-radius: 15px;
   height: 150px;
-  color: #ffffff;
+  color: #000000;
   width: 100%;
   padding: 25px 30px;
   transition: 0.4s;
@@ -30608,6 +30612,38 @@ main {
 .project-form-box input::placeholder {
   color: #595959;
   opacity: 1;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Razmak između stavki */
+}
+
+.skill-icon {
+    width: 56px; /* ili bilo koja druga dimenzija */
+    height: 56px;
+    margin-right: 10px; /* Razmak između ikonice i linije */
+	line-height: 52px;
+	background: transparent;
+}
+
+.skill-bar {
+    height: 5px; /* Visina linije */
+    background-color: #4CAF50; /* Boja linije */
+    border-radius: 2px;
+}
+
+.skill-bar-container {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Da se pruža preko celog raspoloživog prostora */
+}
+
+.skill-percentage {
+    margin-left: 10px; /* Razmak između linije i procenta */
+    font-size: 20px;
+	font-family: "Outfit", sans-serif; 
 }
 
 .project-form-box input:-ms-input-placeholder {
@@ -31007,6 +31043,16 @@ main {
     max-width: 1315px;
   }
 }
+@media only screen and (min-width: 991px) {
+	.portfolio-buttons-container {
+		display: flex;
+		justify-content: flex-start;
+		padding-top:50px;
+	}
+	.portfolio-button {
+	margin-right: 10px; 
+	}
+}
 @media only screen and (max-width: 1720px) {
   .roll-item2 .roll-content .title {
     font-size: 60px;
@@ -31170,6 +31216,10 @@ main {
   .header-logo-area .sc-header-logo {
     margin-right: 20px;
   }
+  #portfolio-wrapper8,
+  #portfolio-wrapper7,
+  #portfolio-wrapper6,
+  #portfolio-wrapper5,
   #portfolio-wrapper4,
   #portfolio-wrapper3,
   #portfolio-wrapper2,
@@ -31197,6 +31247,12 @@ main {
   .sc-blog-section .portfolio-button,
   .sc-portfolio-section .portfolio-button {
     text-align: start !important;
+  }
+  .portfolio-button{
+	  padding-top: 10px;
+  }
+  .portfolio-buttons-container {
+	  padding-top: 30px;
   }
   .testimonial-item {
     display: block !important;
@@ -31283,7 +31339,7 @@ main {
   }
   .sc-hambagur-icon {
     position: absolute;
-    top: 18px;
+    /* top: 18px; */
     right: 15px;
   }
   .sc-breadcrumb-style {
@@ -31298,6 +31354,10 @@ main {
     padding-top: 150px;
     padding-bottom: 80px;
   }
+  #portfolio-wrapper8,
+  #portfolio-wrapper7,
+  #portfolio-wrapper6,
+  #portfolio-wrapper5,
   #portfolio-wrapper4,
   #portfolio-wrapper3,
   #portfolio-wrapper2,
@@ -31443,6 +31503,10 @@ main {
     width: 100px;
     height: 100px;
   }
+  #portfolio-wrapper8,
+  #portfolio-wrapper7,
+  #portfolio-wrapper6,
+  #portfolio-wrapper5,
   #portfolio-wrapper4,
   #portfolio-wrapper3,
   #portfolio-wrapper2,
@@ -31485,6 +31549,10 @@ main {
   .sc-service-item .service-content .title {
     margin-bottom: 15px;
   }
+  #portfolio-wrapper8,
+  #portfolio-wrapper7,
+  #portfolio-wrapper6,
+  #portfolio-wrapper5,
   #portfolio-wrapper4,
   #portfolio-wrapper3,
   #portfolio-wrapper2,
