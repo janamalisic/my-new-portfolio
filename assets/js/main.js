@@ -75,7 +75,7 @@
             prevEl: ".swiper-button-prev",
         },
         autoplay: {
-            delay: 1400,
+            delay: 2000,
         },
         loop: true,
         breakpoints: {
